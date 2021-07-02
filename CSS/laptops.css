@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/lions.jpg);
+    object-fit: contain;
+}
+.div{
+    height: 15vh;
+    background-color: rgba(209, 170, 119, 0.473);
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.header{
+    background: url(../img/hero-slide-2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+.nav1{
+    background-color: aliceblue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+}
+.anc{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    transition: 600ms;
+    width: 70px;
+}
+.anc:hover{
+    color: blue;
+}
+.active{
+    color: blue;
+}
+.anc::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: blueviolet;
+}
+.anc:hover::before{
+    width: 50%;
+    transition: 1s;
+}
+.anchor{
+    display: flex;
+}
+.logo{
+    width: 140px;
+    height: 40px;
+}

@@ -1,0 +1,28 @@
+.myimg{
+    /* THIS IS FOR CIRCLED IMAGES */
+    /* max-width: 50%;
+    width: 40%; */
+    /* max-height: 300px;
+    height: 1000px; */
+    /* min-width: 30%;
+    width: 9%; */
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+.myimg1{
+    /* THIS IS FOR ROUNDED IMAGES */
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.myimg2{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px red double;
+}
